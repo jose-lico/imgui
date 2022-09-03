@@ -43,7 +43,4 @@ project "ImGui"
 	filter "configurations:Release"
 		runtime "Release"
 		optimize "On"
-
-	filter "configurations:MinSizeRelease"
-		runtime "Release"
-		optimize "On"
+		
