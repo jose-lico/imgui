@@ -35,7 +35,6 @@ project "ImGui"
 
 	filter "system:linux"
 		cppdialect "C++17"
-		pic "On"
 		systemversion "latest"
 
 	filter "configurations:Debug"
