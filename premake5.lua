@@ -30,8 +30,8 @@ project "ImGui"
 
 	filter "system:windows"
 		cppdialect "C++17"
-		systemversion "latest"
 		staticruntime "On"
+		systemversion "latest"
 
 	filter "system:linux"
 		cppdialect "C++17"
