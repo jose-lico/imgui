@@ -3,7 +3,7 @@ project "ImGui"
 	language "C++"
 	configmap 
 	{
-		["ReleaseWithInfo"] = "Release"
+		["ReleaseWithInfo"] = "Release",
 		["ReleaseNoImGui"] = "Release"
 	}
 
