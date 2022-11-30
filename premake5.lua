@@ -1,9 +1,11 @@
 project "ImGui"
 	kind "StaticLib"
 	language "C++"
-	configmap {
-        ["ReleaseNoImGui"] = "Release"
-    }
+	configmap 
+	{
+		["ReleaseWithInfo"] = "Release"
+		["ReleaseNoImGui"] = "Release"
+	}
 
 	targetdir ("%{wks.location}/bin/" .. outputDir .. "/%{prj.name}")
 	objdir ("%{wks.location}/bin-int/" .. outputDir .. "/%{prj.name}")
@@ -43,4 +45,3 @@ project "ImGui"
 	filter "configurations:Release"
 		runtime "Release"
 		optimize "On"
-		
